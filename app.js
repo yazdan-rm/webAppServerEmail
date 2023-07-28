@@ -43,7 +43,7 @@ app.post("/", (req, res)=>{
     
     const option = {
         method:"POST",
-        auth: "yazdan1:f013f44cdb6e4876e9e13d7e565494b8-us10"
+        auth: "fba0d3d189047e9b016e561b9bf93e47-us10"
     }
     
     const request = https.request(url, option, (response)=>{
@@ -76,7 +76,7 @@ app.listen(process.env.PORT || port, ()=>{
 })
 
 //API key   
-// f013f44cdb6e4876e9e13d7e565494b8-us10
+// fba0d3d189047e9b016e561b9bf93e47-us10
 
 
 //List ID
